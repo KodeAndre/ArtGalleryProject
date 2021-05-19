@@ -1,0 +1,42 @@
+/* Custom Font */
+@font-face {
+    font-family: "customfont";     src: url("fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf");
+}
+
+body {
+    background-color: black;
+    color: rgb(146, 218, 39);
+    text-align: center;
+}
+.seo-pics {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap row;
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+    padding: 10px;
+    border-bottom: 5px solid rgb(146, 218, 39);
+    
+}
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.seo-title {
+    border-bottom: 5px solid rgb(146, 218, 39);
+}
+
+footer {
+    display: block;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    width: 100px;
+    border: solid rgb(146, 218, 39) 2px;
+}
