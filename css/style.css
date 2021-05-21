@@ -8,6 +8,11 @@ body {
     color: rgb(146, 218, 39);
     text-align: center;
 }
+
+a {
+    color: rgb(25, 14, 187);
+}
+
 .seo-pics {
     display: flex;
     justify-content: space-evenly;
