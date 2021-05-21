@@ -19,7 +19,7 @@ a {
     flex-flow: wrap row;
     max-width: 100%;
     height: auto;
-    background-size: contain;
+    size: contain;
     padding: 10px;
     border-bottom: 5px solid rgb(146, 218, 39);
     
@@ -38,7 +38,15 @@ img:hover {
     transform: scale(1.5) translateX(15%);
 }
 
-.seo-pics > img:nth-last-child(1):hover {
+.seo-pics > img:nth-child(7):hover {
+    transform: scale(1.5) translateX(15%);
+}
+
+.seo-pics > img:nth-child(6):hover {
+    transform: scale(1.5) translateX(-15%)
+}
+
+.seo-pics > img:nth-child(12):hover {
     transform: scale(1.5) translateX(-15%)
 }
 
