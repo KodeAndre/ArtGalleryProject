@@ -27,7 +27,14 @@ img:hover {
     filter: grayscale(0%);
     transform: scale(1.5);
     z-index: 1;
-    overflow: unset;
+}
+
+.seo-pics > img:nth-child(1):hover {
+    transform: scale(1.5) translateX(15%);
+}
+
+.seo-pics > img:nth-last-child(1):hover {
+    transform: scale(1.5) translateX(-15%)
 }
 
 .seo-title {
