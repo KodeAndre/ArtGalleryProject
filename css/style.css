@@ -14,18 +14,20 @@ a {
 }
 
 .seo-pics {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: wrap row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    align-content: center;
     max-width: 100%;
     height: auto;
     size: contain;
     padding: 10px;
     border-bottom: 5px solid rgb(146, 218, 39);
+    border-top: 5px solid rgb(146, 218, 39);
     
 }
 img {
     filter: grayscale(100%);
+    padding-bottom: 5%;
 }
 
 img:hover {
@@ -34,7 +36,7 @@ img:hover {
     z-index: 1;
 }
 
-.seo-pics > img:nth-child(1):hover {
+/* .seo-pics > img:nth-child(1):hover {
     transform: scale(1.5) translateX(15%);
 }
 
@@ -48,11 +50,7 @@ img:hover {
 
 .seo-pics > img:nth-child(12):hover {
     transform: scale(1.5) translateX(-15%)
-}
-
-.seo-title {
-    border-bottom: 5px solid rgb(146, 218, 39);
-}
+} */
 
 footer {
     display: block;
