@@ -16,6 +16,7 @@ a {
 .seo-pics {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    gap: 10px;
     justify-items: center;
     max-width: 100%;
     height: auto;
@@ -27,7 +28,7 @@ a {
 
 img {
     filter: grayscale(100%);
-    transition: transform .5s ease-in-out;
+    transition: transform .4s ease-in-out;
 }
 
 img:hover {
