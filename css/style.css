@@ -15,25 +15,26 @@ a {
 
 .seo-pics {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    justify-items: center;
     max-width: 100%;
     height: auto;
-    size: contain;
-    padding: 10px;
+    background-size: contain;
+    padding: 10px 0;
     border-bottom: 5px solid rgb(146, 218, 39);
     border-top: 5px solid rgb(146, 218, 39);
-    
 }
+
 img {
     filter: grayscale(100%);
-    padding-bottom: 5%;
+    transition: transform .5s ease-in-out;
 }
 
 img:hover {
     filter: grayscale(0%);
     transform: scale(1.5);
     z-index: 1;
+    transition: transform .4s ease-in-out;
 }
 
 /* .seo-pics > img:nth-child(1):hover {
@@ -57,5 +58,5 @@ footer {
     margin: 10px auto;
     padding-bottom: 10px;
     width: 100px;
-    border: solid rgb(146, 218, 39) 3px;
+    border: solid rgb(146, 218, 39) 2px;
 }
